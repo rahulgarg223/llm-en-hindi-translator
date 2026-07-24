@@ -4,7 +4,6 @@ Translator wrapper around the HuggingFace Inference API.
 Usage:
     export HF_TOKEN=hf_xxx...
     python translator.py "Where is the nearest railway station?"
-
 Requires: pip install huggingface_hub
 """
 
