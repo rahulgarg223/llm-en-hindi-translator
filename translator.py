@@ -6,7 +6,8 @@ Usage:
     python translator.py "Where is the nearest railway station?"
 Requires: pip install huggingface_hub
 """
-
+from dotenv import load_dotenv
+load_dotenv()
 import os
 import re
 import sys
