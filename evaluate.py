@@ -7,6 +7,7 @@ Usage:
     export HF_TOKEN=hf_xxx...
     python evaluate.py --model CohereForAI/aya-23-8B --num_shots 5 --limit 50
 
+    
 Requires: pip install sacrebleu
 """
 
