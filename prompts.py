@@ -12,12 +12,7 @@ SYSTEM_PROMPT = (
     "no English text, no quotation marks."
 )
 
-# Few-shot examples covering different registers / difficulty types:
-# - simple factual sentence
-# - formal/business register
-# - idiom (tests whether the model translates meaning, not word-for-word)
-# - informal/conversational register
-# - sentence with a number + named entity
+
 FEW_SHOT_EXAMPLES = [
     {
         "en": "The meeting is scheduled for 5 PM tomorrow.",
