@@ -8,6 +8,9 @@ SYSTEM_PROMPT = (
     "Translate the given text into fluent, natural, grammatically correct Hindi "
     "(Devanagari script). Preserve proper nouns, numbers, and technical terms "
     "appropriately. Match the register (formal/informal) of the source text. "
+    "When transliterating personal names, use the minimal, most common Hindi "
+    "spelling — do not insert extra vowel sounds between consonants that are "
+    "pronounced together (e.g. 'Garg' -> 'गर्ग', not 'गार्ग'). "
     "Output ONLY the Hindi translation — no explanations, no transliteration, "
     "no English text, no quotation marks."
 )
